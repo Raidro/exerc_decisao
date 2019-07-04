@@ -3,6 +3,7 @@ Faça um programa para a leitura de duas notas parciais de um aluno. O programa 
 A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
 A mensagem "Reprovado", se a média for menor do que sete;
 A mensagem "Aprovado com Distinção", se a média for igual a dez.
+É possivel diminuir o codigo iniciando uma variavel com o valor de reprovado e eliminando o ultimo 'else'
 
 */
 
