@@ -5,6 +5,31 @@ let numero1 = parseFloat(prompt('Entre com o numero 1: '));
 let numero2 = parseFloat(prompt('Entre com o numero 2: '));
 let numero3 = parseFloat(prompt('Entre com o numero 3: '));
 
+let auxiliar = 0;
+
+if (numero1 > numero2) {
+    auxiliar = numero1;
+    numero1 = numero2;
+    numero2 = auxiliar;
+}
+
+if (numero2 > numero3) {
+    auxiliar = numero2;
+    numero2 = numero3;
+    numero3 = auxiliar;
+
+}
+
+if (numero1 > numero2) {
+    auxiliar = numero1;
+    numero1 = numero2;
+    numero2 = auxiliar;
+}
+
+alert('O Maior é: ' + numero3 + ' e o menor é: ' + numero1);// Coloquei o numero 3 sendo sempre o maior e o numero 1 sendo o menor;
+
+
+/* FORMA ALTERNATIVA QUE TB FUNCIONOU
 
 //verifica qual é o maior
 if (numero1 > numero2 && numero1 > numero3) {
@@ -22,5 +47,5 @@ if (numero1 < numero2 && numero1 < numero3) {
 } else {
     alert('O Menor numero é: ' + numero3);
 }
-
+*/
 

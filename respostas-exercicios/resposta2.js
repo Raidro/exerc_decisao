@@ -3,8 +3,8 @@
 
 let valor = parseFloat(prompt('Entre com o valor: '));
 
-if (valor > 0) {
+if (valor > 0) { //se maior que 0 é positivo
     alert('O Valor é Positivo!!');
-} else {
+} else { // se não, negativo
     alert('O Valor é Negativo');
 }
