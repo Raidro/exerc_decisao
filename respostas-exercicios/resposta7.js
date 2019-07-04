@@ -1,5 +1,6 @@
 
 //Faça um Programa que leia três números e mostre o maior e o menor deles.
+// \n é um <br> no js. quebra de linha
 
 let numero1 = parseFloat(prompt('Entre com o numero 1: '));
 let numero2 = parseFloat(prompt('Entre com o numero 2: '));
@@ -17,7 +18,6 @@ if (numero2 > numero3) {
     auxiliar = numero2;
     numero2 = numero3;
     numero3 = auxiliar;
-
 }
 
 if (numero1 > numero2) {
@@ -47,5 +47,6 @@ if (numero1 < numero2 && numero1 < numero3) {
 } else {
     alert('O Menor numero é: ' + numero3);
 }
+
 */
 
