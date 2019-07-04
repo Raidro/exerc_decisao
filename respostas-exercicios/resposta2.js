@@ -1,4 +1,6 @@
 
+//Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
 let valor = parseFloat(prompt('Entre com o valor: '));
 
 if (valor > 0) {
