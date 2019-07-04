@@ -19,8 +19,6 @@ if (numero3 > maior){
 
 alert(maior);
 
-
-
 */
 
 let numero1 = parseFloat(prompt('Entre com o numero 1: '));
