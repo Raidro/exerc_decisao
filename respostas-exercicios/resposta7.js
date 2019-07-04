@@ -10,19 +10,19 @@ let auxiliar = 0;
 
 if (numero1 > numero2) {
     auxiliar = numero1;
-    numero1 = numero2;
+    numero1 = numero2; //substitui o valor de 1 pra 2
     numero2 = auxiliar;
 }
 
 if (numero2 > numero3) {
     auxiliar = numero2;
-    numero2 = numero3;
+    numero2 = numero3; // substitui o valor de 2 para 3
     numero3 = auxiliar;
 }
 
 if (numero1 > numero2) {
     auxiliar = numero1;
-    numero1 = numero2;
+    numero1 = numero2; // verifica de novo se 1 é maior que 2, e se for, substitui o valor de 1 em 2
     numero2 = auxiliar;
 }
 
