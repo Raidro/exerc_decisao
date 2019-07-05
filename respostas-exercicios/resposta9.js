@@ -5,7 +5,6 @@ let numero1 = parseFloat(prompt('Entre com o Numero 1: '));
 let numero2 = parseFloat(prompt('Entre com o Numero 2: '));
 let numero3 = parseFloat(prompt('Entre com o Numero 3: '));
 
-
 let auxiliar = 0;
 
 if (numero1 > numero2) {
