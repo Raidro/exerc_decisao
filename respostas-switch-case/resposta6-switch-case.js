@@ -1,0 +1,1 @@
+//não pode ser usada poispreciso usar os sinais de >=, <=, >, < e o switch case não aceita

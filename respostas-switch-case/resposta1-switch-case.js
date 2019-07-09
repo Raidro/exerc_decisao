@@ -1,0 +1,1 @@
+// resposta 1 não pode ser usado com o switch pois preciso fazer uma verificação se é maior que o outro numero e no switch case não aceita maior, só igual.
