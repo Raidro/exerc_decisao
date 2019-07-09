@@ -12,6 +12,4 @@ switch (escrita) {
     default:
         alert('Sexo Invalido!');
 
-
-
 }
