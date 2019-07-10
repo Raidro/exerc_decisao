@@ -1,3 +1,8 @@
+
+//charAt(0), ele pega o primeiro caracter digitado, jutamente com o trim, mesmo com espaço ele pegara sempre o primeiro caracter
+
+
+
 let turno = prompt('Qual o seu turno: M- matutino ou V- Vespertino ou N- Noturno?: ').toLowerCase().trim();
 
 switch (!isNaN(turno) || turno) {
